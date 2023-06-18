@@ -2,6 +2,15 @@
 
 This project aims to develop a machine learning model that can perform sentiment analysis on Arabic text using different versions of BERT (Bidirectional Encoder Representations from Transformers). The models are trained on a dataset of labeled Arabic text and use pre-trained BERT language models to extract features and classify the text as either positive, negative, or neutral.
 
+The dataset used is
+- ARcSarcasm 
+- Saudi Data
+
+Three different  Bert Version used to compare them 
+- AraBert ( common and standard Arabic BERT)
+- MarBert ( This version have Effective on Saudi Dialect) 
+- FastAraBert ( Fast verion of Ara Bert )
+
 ## Getting Started
 
 To get started with this project, you will need to have Python 3 installed on your computer. You will also need to install the following Python libraries:
@@ -27,9 +36,9 @@ Once you have installed the required libraries, you can run the sentiment analys
 The project is structured as follows:
 
 - `arabic_sentiment_analysis.py` - This is the main script that runs the sentiment analysis models using different versions of BERT.
-- `data.csv` - This is the dataset of labeled Arabic text used to train the models.
-- `data_processing.py` - This module contains functions for processing and cleaning the text data.
-- `model_training.py` - This module contains functions for training and evaluating the machine learning models using different versions of BERT.
+- `Arcsarsesm` - This is the dataset of labeled Arabic text used to train the models.
+- `Saudi Data` - This is the dataset of labeled Saudi dialect text used to train the models.
+
 
 ## Contributing
 
